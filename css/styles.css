@@ -1,0 +1,117 @@
+.gradient-background-home{
+    /* background:linear-gradient(300deg,#B1B2FF,#D2DAFF); */
+    /* background: linear-gradient(300deg,#00bfff,#ff4c68,#ef8172); */
+    background: linear-gradient(white,#c97df5);
+    background-size: 180% 180%;
+    /* animation: gradient-animation 18s ease infinite; */
+}
+
+/* @keyframes gradient-background{
+    0%{
+        background-position:0% 50%;
+    }
+    50%{
+        background-position:100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+} */
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Title  */
+.navbar{
+    /* padding: 0 3.5rem 0 3.5rem; */
+    line-height: 1.5;
+}
+.title-image{
+   text-align: center;
+
+}
+h1 h2 h3 h4 h5 h6{
+    font-weight: bold;
+}
+#portfolio{
+    padding: 5% 10% 5% 10%;
+    background-color: aliceblue;
+}
+#reviews{
+    padding: 5% 10% 5% 10%;
+    background-color: aliceblue;
+}
+
+.book-review-card{
+    background-color: #eaf5b6;
+    /* background-color: ; */
+    background-color: #ecd6f7;
+    border-radius: 1rem;
+    /* border-top-right-radius: 1rem;
+    border-top-left-radius: 10rem; */
+}
+.book-review-photo{
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+/* .book-item{
+    padding: 2% 0 2% 0;
+    padding: 1% 0.5% 1% 0.5%;
+ 
+} */
+.book-item{
+    padding: 3% 2%;
+}
+.review-button{
+    background-color: #FDE2F3;
+}
+.review-button:hover{
+    background-color: #fa8fd3;
+    background-color: #299625;
+}
+#reels{
+    text-align: center;
+    /* background-color: #ECF2FF; */
+    padding: 5% 10% 5% 10%;
+}
+
+.gradient-background-portfolio{
+    background-image: linear-gradient(to bottom right, #B3E5BE,#655DBB);
+    background-image: linear-gradient(to bottom right,#e8effd, #BFACE2);
+    background: linear-gradient(to bottom right,#e9c7fd,white);
+    background-image: linear-gradient(to bottom right,#ECF2FF, #BFACE2);
+    background-image: linear-gradient(to bottom right,#e1b8fa, #BFACE2);
+    background-image: linear-gradient(#e1b8fa, #BFACE2);
+}
+.gradient-background-reviews{
+    background-image: linear-gradient(to bottom right, #B3E5BE,#655DBB);
+    background-image: linear-gradient(to bottom right,#e8effd, #BFACE2);
+    background: linear-gradient(to bottom right,#e9c7fd,white);
+    background-image: linear-gradient(to bottom right,#ECF2FF, #BFACE2);
+    background-image: linear-gradient(to bottom right,#e1b8fa, #BFACE2);
+    background-image: linear-gradient(#e1b8fa, #BFACE2);
+}
+
+.gradient-background-reels{
+    background-image: linear-gradient(to bottom right, #B3E5BE,#655DBB);
+    background-image: linear-gradient(to bottom right,#ECF2FF, #BFACE2);
+}
+
+#contact{
+    padding: 1% 15%;
+    text-align: center;
+}
+#footer{
+    padding: 1% 15%;
+    text-align: center;
+}
+
+.contact-button{
+   text-align: center;
+   border: none;
+   margin: 20px 10px;
+}
+.redirect{
+    text-align: center;
+}
